@@ -240,3 +240,43 @@ footer p {
 	color: #FFFFFF;
 	transform: scale(1.70);
 }
+
+
+
+@media (max-width: 768px) {
+
+body {
+	margin: 0;
+	padding: 0;	
+}
+
+#particles-js {
+	background: black;
+	height: 400px;
+	margin-bottom: 100px;
+}
+
+
+.popup-address {
+	color: #FFF;
+	padding: 55px 30px 55px;
+	margin: -250px 50px 30px 0;
+	background-image: url(../images/cityByNight.jpg);
+	width: 100%;
+}
+
+.col-4 h1 {
+	font-size: 30px;
+}
+
+.col-6 i {
+	padding: 5px;
+	margin-left: 0;
+}
+
+.emergency-contact p {
+	padding: 5px;
+}
+
+
+}
