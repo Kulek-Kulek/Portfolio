@@ -1,0 +1,168 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.ui-sortable {
+  min-height: 80px;
+}
+.column .btn-delete, .card .btn-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background-color: #d11919;
+  color: white;
+  font-size: 25px;
+}
+
+.card .btn-delete {
+  width: 18px;
+  height: 18px;
+  font-size: 14px;
+}
+/* BOARD */
+.board {
+  background-image: url(https://images.unsplash.com/photo-1496128959656-addf33ffc2d5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e7493d77590567c381a85c42155e4f0b&auto=format&fit=crop&w=1081&q=80);
+  position: relative;
+}
+
+.board h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 65px;
+  font-weight: bold;
+  margin-top: 30px;
+  font-variant: small-caps;
+  color: #FFF;
+  background-color: #313f27;
+  padding: 30px 0 0 0;
+}
+.board h6 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  position: absolute;
+  top: 60px;
+  left: 650px;
+}
+
+.create-column {
+  color: #313f27;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  background-color: inherit;
+  margin: 50px;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.create-column:hover {
+  text-transform: uppercase;
+  background-color: #313f27;
+  color: #FFF;
+}
+
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* COLUMN */
+.column {
+  order: 1;
+  min-width: 300px;
+  min-height: 50vh;
+  background-color: #2f91ed;
+  margin-left: 8px;
+  list-style: none;
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid #313F27;
+}
+.column-add-card {
+  cursor: pointer;
+  display: block;
+  color: #313f27;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 2px solid #000000;
+  background-color: inherit;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.column-add-card:hover {
+  text-transform: uppercase;
+  background-color: #313f27;
+  color: #FFF;
+}
+.column-title {
+  color: #FFF;
+  font-size: 35px;
+  border-top: 2px solid #19300a;
+  border-bottom: 2px solid #0faf3f;
+}
+
+.column-change-name {
+  color: #313f27;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 2px solid #000000;
+  background-color: inherit;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.column-change-name:hover {
+  text-transform: uppercase;
+  background-color: #313f27;
+  color: #FFF;
+}
+
+
+/* STYLE KARTY */
+.card {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  padding: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.card-list {
+  list-style: none;
+  margin: 5px;
+  padding: 0px;
+}
+.card-description {
+  margin: 2px 0;
+  color: #fff;
+  font-size: 20px;
+  background-color: #56912d;
+}
+.card-placeholder {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  border: 2px solid red;
+  background-color: #313F27;
+}
+
+
+
+
+
